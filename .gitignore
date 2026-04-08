@@ -4,3 +4,22 @@ target/
 dbt_packages/
 logs/
 dbt_internal_packages/
+# Windows temporary files
+~$*.yml
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# DBT specific folders
+target/
+dbt_packages/
+logs/
+dbt_internal_packages/
+
+# MacOS
+.DS_Store
